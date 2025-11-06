@@ -61,7 +61,6 @@ function checkAns(idx){
             bdy.style.backgroundColor ="white";
         },250);
         reset();
-        highest();
     }
 };
 
