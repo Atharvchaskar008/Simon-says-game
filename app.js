@@ -70,7 +70,6 @@ function checkAns(idx){
 function btnpress() {
     let btn =this;
     userFlash(btn);
-    console.log(this.classList);
     userSeq.push(this.classList[1]);
     console.log(userSeq);
     checkAns(userSeq.length-1);
