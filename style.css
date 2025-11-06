@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    /* background-color: #C6FCFF; */
+
+}
+
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+  } /* giving style to boxes */
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+} /*adjusting container to centre*/
+
+.red{
+    background-color: #FF7F50;
+}
+
+.yellow{
+    background-color: #FFEA37;
+}
+
+.blue{
+    background-color: #4B3EDD;
+}
+
+.green{
+    background-color: #3EDD4B;
+}  /*gave the background color for boxes*/
+
+.Flash{
+    background-color: white;
+}
+
+
+.userFlash{
+    background-color: grey;
+}
+
+
+p{
+    font-size:30 px;
+    font-weight: bold;
+}
