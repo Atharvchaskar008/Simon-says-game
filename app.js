@@ -49,7 +49,6 @@ function levelUp(){
 
 
 function checkAns(idx){
-    console.log("current level",level);
     if(gameSeq[idx] ===userSeq[idx]){
         if(userSeq.length===gameSeq.length){
             setTimeout(levelUp,1000);
